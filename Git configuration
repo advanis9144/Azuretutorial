@@ -1,0 +1,12 @@
+echo "# AzureTutorial" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/advanis9144/Azuretutorial.git
+git push -u origin main
+
+Configuring Git
+git config --global user.name "mydevopsuser"
+git config --global user.email "devops@gmail.com"
+git config --global core.editor "vi"
